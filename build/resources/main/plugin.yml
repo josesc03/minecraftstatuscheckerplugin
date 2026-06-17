@@ -1,7 +1,0 @@
-name: MinecraftStatusCheckerPlugin
-version: 1.0.0
-main: com.josaca.status.MinecraftStatusPlugin
-description: A plugin that checks the status of Minecraft servers and provides information about their availability for discord.
-author: josesc
-website: 
-api-version: '26.1.2'
