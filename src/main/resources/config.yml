@@ -1,0 +1,21 @@
+# URL of the Discord Webhook where status messages will be sent.
+# THIS IS REQUIRED.
+webhook-url: "YOUR_WEBHOOK_URL_HERE"
+
+# Interval in seconds for sending status updates.
+update-interval: 60
+
+# The update mode for the Discord message.
+# Available options:
+#   "replace" - Deletes the previous message and sends a new one (default).
+#   "edit"    - Edits the existing message instead of creating a new one.
+update-mode: "replace"
+
+# IP or domain of the server to be displayed in the embed.
+server-ip: "mc.your-domain.com"
+
+# (Optional) Username for the Discord bot. If left empty, the webhook's default name will be used.
+bot-username: "Server Status"
+
+# (Optional) Avatar URL for the Discord bot. If left empty, the webhook's default avatar will be used.
+avatar-url: ""

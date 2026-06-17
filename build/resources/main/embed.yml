@@ -1,0 +1,54 @@
+# Configuración del Embed de Discord.
+# Puedes usar placeholders como {serverIp}, {serverVersion}, {onlinePlayers}, {maxPlayers}.
+
+# Título del embed.
+title: "ESTADO SERVIDOR MINECRAFT"
+
+# Descripción que cambia según el estado del servidor.
+description:
+  online: "🟢 **SERVIDOR ONLINE** 🟢"
+  offline: "🔴 **SERVIDOR OFFLINE** 🔴"
+
+# Color del embed (en formato decimal).
+# Verde: 65280, Rojo: 16711680
+color:
+  online: 65280
+  offline: 16711680
+
+# Pie de página del embed.
+footer: "Magic Art Hat - Minecraft Status"
+
+# Campos (Fields) del embed.
+# Cada campo tiene 'name', 'value' y 'inline' (true/false).
+# Para un espacio en blanco, usa un nombre y valor vacíos.
+fields:
+  - name: " "
+    value: " "
+    inline: false
+  - name: "DIRECCIÓN IP"
+    value: "{serverIp}"
+    inline: true
+  - name: "VERSIÓN"
+    value: "{serverVersion}"
+    inline: true
+  - name: " "
+    value: " "
+    inline: false
+  - name: "JUGADORES"
+    value: "{onlinePlayers}/{maxPlayers}"
+    inline: true
+  - name: " "
+    value: " "
+    inline: false
+  - name: "VOICE CHAT - Modrinth"
+    value: "[PLASMO VOICE](https://modrinth.com/plugin/plasmo-voice)"
+    inline: true
+  - name: "VOICE CHAT - CurseForge"
+    value: "[PLASMO VOICE](https://www.curseforge.com/minecraft/mc-mods/plasmo-voice)"
+    inline: true
+  - name: " "
+    value: " "
+    inline: false
+  - name: "WHITELIST"
+    value: "Si no estás en la whitelist contacta con un administrador para obtener acceso."
+    inline: false
