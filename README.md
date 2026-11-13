@@ -15,7 +15,7 @@ This is a simple yet powerful Bukkit/Spigot/Paper plugin that sends your Minecra
 
 ## Installation
 
-1.  Download the latest `.jar` file from the [Releases](https://github.com/your-repo/minecraft-status-checker/releases) page.
+1.  Download the latest `.jar` file from the [Releases](https://github.com/josesc03/minecraftstatuscheckerplugin/releases) page.
 2.  Place the `minecraftstatuscheckerplugin-1.0.0.jar` file into your server's `plugins` folder.
 3.  Restart your server. This will generate the plugin's configuration folder (`/plugins/MinecraftStatusPlugin/`) containing `config.yml`, `embed.yml`, and `data.yml`.
 
